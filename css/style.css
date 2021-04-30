@@ -10,7 +10,7 @@ body {
 	font-family: montserrat;
 }
 nav {
-	background: #5434af;
+	background: #000000;
 	height: 80px;
 	width: 100%;
 }
@@ -38,7 +38,7 @@ nav ul li a {
 	text-transform: uppercase;
 }
 a.active, a:hover {
-	background: #1d075f;
+	background: #b90d71;
 	transition: .5s;
 }
 .checkbtn {
@@ -70,7 +70,7 @@ a.active, a:hover {
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background: #1d075f;
+		background: #9c0663;
 		top: 80px;
 		left: -100%;
 		text-align: center;
@@ -86,7 +86,7 @@ a.active, a:hover {
 	}
 	a:hover, a.active {
 		background: none;
-		color: #5434af;
+		color: #c01154;
 	}
 	#check:checked ~ ul {
 		left: 0;
@@ -191,7 +191,43 @@ a.active, a:hover {
 
 
 
-  
+ 
+  /*search box css start here*/
+.search-sec{
+  padding: 2rem;
+}
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+@media (min-width: 992px){
+  .search-sec{
+      position: relative;
+      top: -114px;
+      background: rgba(26, 70, 104, 0.51);
+  }
+}
+
+@media (max-width: 992px){
+  .search-sec{
+      background: #1A4668;
+  }
+}
 
   
-  https://epicbootstrap.com/snippets/footer-dark
